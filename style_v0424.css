@@ -1,0 +1,37 @@
+:root {
+    width:80px;
+    height: 80px;
+    margin: 20px;
+}
+.container1 {
+    width:500px;
+    height: 500px;
+    margin: 20px;
+    border: 1px solid red;
+    display: block;
+}
+
+
+.container1 > div {
+    width:80px;
+    height: 80px;
+    margin: 20px;
+    border: 1px solid red;
+    display: block;
+}
+
+.inlineEx > span {
+    width:80px;
+    height: 80px;
+    margin: 20px;
+    border: 1px solid blue;
+    display: inline;
+}
+
+.inlineblockEx > div {
+    width:80px;
+    height: 80px;
+    margin: 20px;
+    border: 1px solid red;
+    display: inline-block;
+}
